@@ -16,7 +16,7 @@
       <h4>My Really Cool Blog Post</h4>
     </div>
     <picture>
-      <!-- below 960px -->
+      <!-- below 960px, the images are landscape size, start from smaller screen-->
       <source srcset="images/museum-320_x_180.png,
                       images/museum-640_x_360.png 2x,
                       images/museum-960_x_540.png 3x" 
@@ -37,21 +37,21 @@
                       images/museum-2880_x_1621.png 3x" 
               media="(max-width: 960px)"/>
       
-      <!-- above 960px -->
-      <source srcset="images/museum-800_x_800.jpeg,
-                      images/museum-1600_x_1600.jpeg 2x,
-                      images/museum-2400_x_2400.jpeg 3x"  
-              media="(min-width: 1600px)">
+      <!-- above 960px, the images are square size, start from smaller screen-->
+      <source srcset="images/museum-480_x_480.png,
+                      images/museum-960_x_960.png 2x,
+                      images/museum-1440_x_1440.png 3x" 
+              media="(min-width: 960px)"> 
 
-      <source srcset="images/museum-640_x_640.jpeg,
-                      images/museum-1280_x_1280.jpeg 2x,
-                      images/museum-1920_x_1920.jpeg 3x"  
+      <source srcset="images/museum-640_x_640.png,
+                      images/museum-1280_x_1280.png 2x,
+                      images/museum-1920_x_1920.png 3x"  
               media="(min-width: 1280px)">
 
-      <source srcset="images/museum-480_x_480.jpeg,
-                      images/museum-960_x_960.jpeg 2x,
-                      images/museum-1440_x_1440.jpeg 3x" 
-              media="(min-width: 960px)">
+      <source srcset="images/museum-800_x_800.png,
+                      images/museum-1600_x_1600.png 2x,
+                      images/museum-2400_x_2400.png 3x"  
+              media="(min-width: 1600px)">
 
         <img src="images/museum.jpg" alt="picture of museum">
     </picture>
